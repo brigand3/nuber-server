@@ -1,6 +1,6 @@
 type Query {
   sayBye: String!
-  sayHello: Gretting!
+  sayHello(name: String!): SayHelloResponse!
 }
 
 type Gretting {
